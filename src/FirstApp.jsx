@@ -1,13 +1,9 @@
 
-const getResult = (a, b) => {
-  return a + b
-}
 
-
-export const FirstApp = () => {
+export const FirstApp = ({title}) => {
   return (
     <>
-      <h2>Santiago</h2>
+      <h2>{title}</h2>
       <p>Soy un subtítulo</p>
     </>
   )
