@@ -5,4 +5,3 @@ export function getSaludo(nombre) {
 }
 
 const nombre = 'Pedro'
-console.log(`Este es un texto: ${getSaludo(nombre)}  `);
