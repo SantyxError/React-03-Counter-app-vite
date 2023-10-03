@@ -10,7 +10,7 @@ import { CounterApp } from './CounterApp'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <HelloWorldApp /> */}
-   {/*  <CounterApp value={10} /> */}
-   <FirstApp title='Hola, Soy Goku'></FirstApp>
+    <CounterApp value={10} />
+  {/*  <FirstApp title='Hola, Soy Goku'></FirstApp> */}
   </React.StrictMode>
 )
